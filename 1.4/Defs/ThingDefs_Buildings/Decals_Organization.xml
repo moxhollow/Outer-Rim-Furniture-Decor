@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_DecalBase" Name="OuterRim_Decals_Organization" Abstract="True">
+		<graphicData>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<size>(3, 3)</size>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatDecalsOrganization</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_BlackSun</defName>
+		<label>Decal (Black Sun)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/BlackSun</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_BrokenHornSyndicate</defName>
+		<label>Decal (Broken Horn Syndicate)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/BrokenHornSyndicate</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_CommerceGuild</defName>
+		<label>Decal (Commerce Guild)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/CommerceGuild</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_CrimsonDawn</defName>
+		<label>Decal (Crimson Dawn)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/CrimsonDawn</texPath>
+		</graphicData>
+	</ThingDef>  
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_DurandCrimeFamily</defName>
+		<label>Decal (Durand Crime Family)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/DurandCrimeFamily</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_FrommGang</defName>
+		<label>Decal (Fromm Gang)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/FrommGang</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_GarbisFamily</defName>
+		<label>Decal (Garbis Family)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/GarbisFamily</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_GuavianDeathGang</defName>
+		<label>Decal (Guavian Death Gang)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/GuavianDeathGang</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_HaxionBrood</defName>
+		<label>Decal (Haxion Brood)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/HaxionBrood</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_HuttClan</defName>
+		<label>Decal (Hutt Clan)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/HuttClan</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_IvaxSyndicate</defName>
+		<label>Decal (Ivax Syndicate)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/IvaxSyndicate</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_Kajidic</defName>
+		<label>Decal (Kajidic)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/Kajidic</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_Kanjiklub</defName>
+		<label>Decal (Kanjiklub)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/Kanjiklub</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_KintanStriders</defName>
+		<label>Decal (Kintan Striders)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/KintanStriders</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_Kouhun</defName>
+		<label>Decal (Kouhun)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/Kouhun</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_LokRevenants</defName>
+		<label>Decal (Lok Revenants)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/LokRevenants</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_NihilRaiders</defName>
+		<label>Decal (Nihil Raiders)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/NihilRaiders</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_NobleCourt</defName>
+		<label>Decal (Noble Court)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/NobleCourt</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_OhnakaGang</defName>
+		<label>Decal (Ohnaka Gang)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/OhnakaGang</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_PykeSyndicate</defName>
+		<label>Decal (Pyke Syndicate)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/PykeSyndicate</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_RancGang</defName>
+		<label>Decal (Ranc Gang)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/RancGang</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_TheExchange</defName>
+		<label>Decal (The Exchange)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/TheExchange</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_TradeSpineLeague</defName>
+		<label>Decal (Trade Spine League)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/TradeSpineLeague</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_WarbirdGang</defName>
+		<label>Decal (Warbird Gang)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/WarbirdGang</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_ZannConsortium</defName>
+		<label>Decal (Zann Consortium)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/ZannConsortium</texPath>
+		</graphicData>
+	</ThingDef> 
+
+</Defs>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_HoloProjector_Small</defName>
+		<label>small holoprojector</label>
+		<description>A small hologram projector often used by stores to easily advertise in poorly lit areas.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Projectors/Small/HoloProjector_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1, 1)</drawSize>
+		</graphicData>
+		<tickerType>Rare</tickerType>
+		<thingClass>Building</thingClass>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<drawerType>RealtimeOnly</drawerType>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<useHitPoints>true</useHitPoints>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Flammability>0.3</Flammability>
+			<Mass>3</Mass>
+			<Beauty>12</Beauty>
+		</statBases>
+		<costList>
+			<OuterRim_ComponentHypertech>1</OuterRim_ComponentHypertech>
+			<OuterRim_Durasteel>30</OuterRim_Durasteel>
+		</costList>
+		<comps>
+			<li Class="TabulaRasa.CompProperties_HologramProjection">
+				<!-- Display -->
+				<size>(1, 1)</size>
+				<offset>(0, 1, 0.85)</offset>
+				<hologramTags>
+					<li>OuterRimHoloSmall</li>
+				</hologramTags>
+				<holobeam>OuterRim/Building/Projectors/Small/HoloProjector_Small_Holobeam</holobeam>
+				<!--Effects -->
+				<radius>4</radius>
+				<recreationPerDay>0.05</recreationPerDay>
+				<certaintyPerDay>0.02</certaintyPerDay>
+				<!-- Glower -->
+				<glowRadius>2</glowRadius>
+				<glowColor>(255, 255, 255)</glowColor>
+			</li>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+			<li Class="CompProperties_Flickable" />
+		</comps>
+		<thingCategories>
+			<li>BuildingsArt</li>
+		</thingCategories>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+			<li>TabulaRasa.ITab_Hologram</li>
+		</inspectorTabs>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<researchPrerequisites Inherit="False">
+			<li>OuterRim_HypertechDecor</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatRecreation</subCategory>
+				<showOnlyInCategory>false</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

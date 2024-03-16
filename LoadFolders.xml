@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+	<v1.4>
+		<li>/</li>
+		<!-- Gotta load some bases from OR Core first otherwise it freaks out. -->
+		<li IfModNotActive="Neronix17.OuterRim.Core">1.4/VanillaPre</li>
+		<li>1.4</li>
+		<li IfModActive="Neronix17.OuterRim.Core">1.4/OuterRimCore</li>
+		<li IfModNotActive="Neronix17.OuterRim.Core">1.4/Vanilla</li>
+	</v1.4>
+</loadFolders>

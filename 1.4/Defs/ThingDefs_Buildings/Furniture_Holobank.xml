@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimFurnitureBase">
+		<defName>OuterRim_Holobank</defName>
+		<label>holobank</label>
+		<description>A holobank housing various digital information clusters.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Furniture/Holobank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3.55,3.45)</drawSize>
+			<shadowData>
+				<volume>(0.30, 0.30, 0.40)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<costStuffCount>10</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatFurnitureGeneric</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- ==================== 1x1 Table ==================== -->
+
+	<ThingDef ParentName="OuterRimTableGatherSpotBase">
+		<defName>OuterRim_Coruscant1x1Table</defName>
+		<label>coruscant table (1x1)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Furniture/Coruscant/Coruscant_TableSmall</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.05, 1.05)</drawSize>
+		</graphicData>
+		<size>(1, 1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<Mass>15</Mass>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>8</Beauty>
+		</statBases>
+		<costList>
+			<OuterRim_Durasteel>60</OuterRim_Durasteel>
+		</costList>
+		<comps>
+			<li Class="TabulaRasa.CompProperties_ExtraGraphics">
+				<extraGraphics>
+					<li>
+						<label>Defualt</label>
+						<path>OuterRim/Building/Furniture/Coruscant/Coruscant_TableSmall</path>
+					</li>
+					<li>
+						<label>Outlander</label>
+						<path>OuterRim/Building/Furniture/Coruscant/Coruscant_TableSmallClutterA</path>
+					</li>
+					<li>
+						<label>Galactic Empire</label>
+						<path>OuterRim/Building/Furniture/Coruscant/Coruscant_TableSmallClutterB</path>
+					</li>
+					<li>
+						<label>Rebel Alliance</label>
+						<path>OuterRim/Building/Furniture/Coruscant/Coruscant_TableSmallClutterC</path>
+					</li>
+					<li>
+						<label>Seperatist</label>
+						<path>OuterRim/Building/Furniture/Coruscant/Coruscant_TableSmallClutterD</path>
+					</li>
+					<li>
+						<label>Galactic Republic</label>
+						<path>OuterRim/Building/Furniture/Coruscant/Coruscant_TableSmallClutterE</path>
+					</li>
+				</extraGraphics>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatFurnitureCoruscant</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ==================== 2x1 Table ==================== -->
+
+	<ThingDef ParentName="OuterRimTableGatherSpotBase">
+		<defName>OuterRim_Coruscant2x1Table</defName>
+		<label>coruscant table (2x1)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Furniture/Coruscant/Coruscant_TableMedium</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.1, 2.1)</drawSize>
+		</graphicData>
+		<size>(2, 1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<Mass>15</Mass>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>8</Beauty>
+		</statBases>
+		<costList>
+			<OuterRim_Durasteel>30</OuterRim_Durasteel>
+		</costList>
+		<comps>
+			<li Class="TabulaRasa.CompProperties_ExtraGraphics">
+				<extraGraphics>
+					<li>
+						<label>Default</label>
+						<path>OuterRim/Building/Furniture/Coruscant/Coruscant_TableMedium</path>
+					</li>
+					<li>
+						<label>Outlander</label>
+						<path>OuterRim/Building/Furniture/Coruscant/Coruscant_TableMediumClutter</path>
+					</li>
+				</extraGraphics>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatFurnitureCoruscant</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ==================== 2x2 Table ==================== -->
+
+	<ThingDef ParentName="OuterRimTableGatherSpotBase">
+		<defName>OuterRim_Coruscant2x2Table</defName>
+		<label>coruscant table (2x2)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Furniture/Coruscant/Coruscant_TableLarge</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.1, 2.2)</drawSize>
+		</graphicData>
+		<size>(2, 2)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<Mass>15</Mass>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>8</Beauty>
+		</statBases>
+		<costList>
+			<OuterRim_Durasteel>90</OuterRim_Durasteel>
+		</costList>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatFurnitureCoruscant</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ==================== Single Bed ==================== -->
+
+	<ThingDef ParentName="OuterRimBedWithQualityBase">
+		<defName>OuterRim_CoruscantBed</defName>
+		<label>bed (coruscant)</label>
+		<description>A mattress and sheets on a frame for resting.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Furniture/Coruscant/Coruscant_Bed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(1,2)</size>
+		<uiIconScale>0.90</uiIconScale>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>30</Mass>
+			<BedRestEffectiveness>1</BedRestEffectiveness>
+			<Comfort>0.75</Comfort>
+			<ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+		</statBases>
+		<building>
+			<bed_showSleeperBody>False</bed_showSleeperBody>
+			<bed_healPerDay>4</bed_healPerDay>
+		</building>
+		<costList>
+			<OuterRim_Durasteel>45</OuterRim_Durasteel>
+		</costList>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
+					<!-- Outer Rim - Matching Set Bonus Only -->
+					<li>OuterRim_CoruscantEndTable</li>
+					<li>OuterRim_CoruscantDresser</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatFurnitureCoruscant</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ==================== Double Bed ==================== -->
+
+	<ThingDef ParentName="OuterRimBedWithQualityBase">
+		<defName>OuterRim_CoruscantDoubleBed</defName>
+		<label>double bed (coruscant)</label>
+		<description>A mattress and sheets on a frame for resting.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Furniture/Coruscant/Coruscant_DoubleBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.05,2.05)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<uiIconScale>0.90</uiIconScale>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>2</Beauty>
+			<WorkToBuild>1500</WorkToBuild>
+			<Mass>50</Mass>
+			<BedRestEffectiveness>1</BedRestEffectiveness>
+			<Comfort>0.75</Comfort>
+			<ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+		</statBases>
+		<building>
+			<bed_showSleeperBody>False</bed_showSleeperBody>
+			<bed_healPerDay>4</bed_healPerDay>
+		</building>
+		<costList>
+			<OuterRim_Durasteel>85</OuterRim_Durasteel>
+		</costList>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
+					<!-- Outer Rim - Matching Set Bonus Only -->
+					<li>OuterRim_CoruscantEndTable</li>
+					<li>OuterRim_CoruscantDresser</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatFurnitureCoruscant</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ==================== Dining Chair ==================== -->
+
+	<ThingDef ParentName="OuterRimArtableFurnitureBase">
+		<defName>OuterRim_CoruscantDiningChair</defName>
+		<label>dining chair (coruscant)</label>
+		<description>A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Furniture/Coruscant/Coruscant_DiningChair</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<pathCost>30</pathCost>
+		<fillPercent>0.35</fillPercent>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>8000</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>8</Beauty>
+			<Comfort>0.70</Comfort>
+		</statBases>
+		<building>
+			<isSittable>true</isSittable>
+		</building>
+		<costList>
+			<OuterRim_Durasteel>45</OuterRim_Durasteel>
+		</costList>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<comps>
+			<li Class="CompProperties_Styleable" />
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatFurnitureCoruscant</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ==================== Dresser ==================== -->
+
+	<ThingDef ParentName="OuterRimArtableFurnitureBase">
+		<defName>OuterRim_CoruscantDresser</defName>
+		<label>dresser (coruscant)</label>
+		<description>A dresser. Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed has no effect.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Furniture/Coruscant/Coruscant_Dresser</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<fillPercent>0.4</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<pathCost>42</pathCost>
+		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<surfaceType>Item</surfaceType>
+		<canOverlapZones>false</canOverlapZones>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>15</Mass>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>5</Beauty>
+		</statBases>
+		<costList>
+			<OuterRim_Durasteel>50</OuterRim_Durasteel>
+		</costList>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<Comfort>0.05</Comfort>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+				<maxDistance>6</maxDistance>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatFurnitureCoruscant</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ==================== End Table ==================== -->
+
+	<ThingDef ParentName="OuterRimTableBase">
+		<defName>OuterRim_CoruscantEndTable</defName>
+		<label>end table (coruscant)</label>
+		<description>A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Furniture/Coruscant/Coruscant_EndTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>2, 2</drawSize>
+		</graphicData>
+		<surfaceType>Item</surfaceType>
+		<pathCost>30</pathCost>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<castEdgeShadows>false</castEdgeShadows>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>3</Beauty>
+		</statBases>
+		<costList>
+			<OuterRim_Durasteel>30</OuterRim_Durasteel>
+		</costList>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<Comfort>0.05</Comfort>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+				<mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatFurnitureCoruscant</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ==================== Stool ==================== -->
+
+	<ThingDef ParentName="OuterRimFurnitureWithQualityBase">
+		<defName>OuterRim_CoruscantStool</defName>
+		<label>stool (coruscant)</label>
+		<description>A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Furniture/Coruscant/Coruscant_Stool</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<uiIconOffset>(0, -0.05)</uiIconOffset>
+		<altitudeLayer>Building</altitudeLayer>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<pathCost>30</pathCost>
+		<fillPercent>0.20</fillPercent>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<WorkToBuild>450</WorkToBuild>
+			<Mass>3</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>0</Beauty>
+			<Comfort>0.5</Comfort>
+		</statBases>
+		<building>
+			<isSittable>true</isSittable>
+		</building>
+		<costList>
+			<OuterRim_Durasteel>25</OuterRim_Durasteel>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Styleable" />
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatFurnitureCoruscant</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ==================== Door ==================== -->
+
+	<ThingDef ParentName="OuterRimDoorBase">
+		<defName>OuterRim_DoorCoruscant</defName>
+		<label>auto-door (coruscant)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Furniture/Coruscant/DoorCoruscant</texPath>
+		</graphicData>
+		<uiIconPath>OuterRim/Building/Furniture/Coruscant/DoorCoruscant_MenuIcon</uiIconPath>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatFurnitureCoruscant</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ==================== Street Lamp ==================== -->
+
+	<!-- ==================== Floor Lamp ==================== -->
+
+	<!-- ==================== Wall Lamp ==================== -->
+
+</Defs>

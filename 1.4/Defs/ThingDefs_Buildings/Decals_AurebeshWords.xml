@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_DecalBase" Name="OuterRim_AurebeshWords" Abstract="True">
+		<graphicData>
+			<drawSize>(2,2)</drawSize>
+            <drawOffsetNorth>(0.0, 0.0, -0.5)</drawOffsetNorth>
+            <drawOffsetSouth>(0.0, 0.0, 0.5)</drawOffsetSouth>
+            <drawOffsetEast>(-0.5, 0.0, 0.0)</drawOffsetEast>
+            <drawOffsetWest>(0.5, 0.0, 0.0)</drawOffsetWest>
+		</graphicData>
+		<size>(2,1)</size>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatDecalsMisc</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+		<designatorDropdown>OuterRim_AurebeshWords</designatorDropdown>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordArmory</defName>
+		<label>aurebesh word (armory)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordArmory</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordBarracks</defName>
+		<label>aurebesh word (barracks)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordBarracks</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordBlock</defName>
+		<label>aurebesh word (block)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordBlock</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordCafeteria</defName>
+		<label>aurebesh word (cafeteria)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordCafeteria</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordCargo</defName>
+		<label>aurebesh word (cargo)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordCargo</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordChamber</defName>
+		<label>aurebesh word (chamber)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordChamber</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordClimate</defName>
+		<label>aurebesh word (climate)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordClimate</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordCommand</defName>
+		<label>aurebesh word (command)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordCommand</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordControl</defName>
+		<label>aurebesh word (control)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordControl</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordEngineer</defName>
+		<label>aurebesh word (engineer)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordEngineer</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordFarming</defName>
+		<label>aurebesh word (farming)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordFarming</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordFreezer</defName>
+		<label>aurebesh word (freezer)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordFreezer</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordFridge</defName>
+		<label>aurebesh word (fridge)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordFridge</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordHangar</defName>
+		<label>aurebesh word (hangar)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordHangar</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordHospital</defName>
+		<label>aurebesh word (hospital)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordHospital</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordKill</defName>
+		<label>aurebesh word (kill)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordKill</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordKitchen</defName>
+		<label>aurebesh word (kitchen)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordKitchen</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordLanding</defName>
+		<label>aurebesh word (landing)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordLanding</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordMedical</defName>
+		<label>aurebesh word (medical)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordMedical</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordMess</defName>
+		<label>aurebesh word (mess)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordMess</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordMorgue</defName>
+		<label>aurebesh word (morgue)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordMorgue</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordMortar</defName>
+		<label>aurebesh word (mortar)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordMortar</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordPlay</defName>
+		<label>aurebesh word (play)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordPlay</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordPrison</defName>
+		<label>aurebesh word (prison)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordPrison</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordReactor</defName>
+		<label>aurebesh word (reactor)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordReactor</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordRecreation</defName>
+		<label>aurebesh word (recreation)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordRecreation</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordRefinery</defName>
+		<label>aurebesh word (refinery)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordRefinery</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordRelax</defName>
+		<label>aurebesh word (relax)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordRelax</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordResearch</defName>
+		<label>aurebesh word (research)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordResearch</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordSecurity</defName>
+		<label>aurebesh word (security)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordSecurity</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordShipping</defName>
+		<label>aurebesh word (shipping)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordShipping</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordSleeping</defName>
+		<label>aurebesh word (sleeping)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordSleeping</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordSmelting</defName>
+		<label>aurebesh word (smelting)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordSmelting</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordStorage</defName>
+		<label>aurebesh word (storage)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordStorage</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordWarning</defName>
+		<label>aurebesh word (warning)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordWarning</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshWords">
+		<defName>OuterRim_AurebeshWordWorkshop</defName>
+		<label>aurebesh word (workshop)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/AurebeshWords/DecalWordWorkshop</texPath>
+		</graphicData>
+	</ThingDef>
+
+</Defs>

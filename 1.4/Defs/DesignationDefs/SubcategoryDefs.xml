@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatRecreation</defName>
+		<label>Recreation</label>
+		<!-- <iconPath>Toolbox/UI/CategoryStructural</iconPath> -->
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatFurnitureGeneric</defName>
+		<label>Furniture (Generic)</label>
+		<!-- <iconPath>Toolbox/UI/CategoryStructural</iconPath> -->
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatFurnitureCorellia</defName>
+		<label>Furniture (Corellia)</label>
+		<!-- <iconPath>Toolbox/UI/CategoryStructural</iconPath> -->
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatFurnitureCoruscant</defName>
+		<label>Furniture (Coruscant)</label>
+		<!-- <iconPath>Toolbox/UI/CategoryStructural</iconPath> -->
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatFurnitureDathomir</defName>
+		<label>Furniture (Dathomir)</label>
+		<!-- <iconPath>Toolbox/UI/CategoryStructural</iconPath> -->
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatFurnitureTatooine</defName>
+		<label>Furniture (Tatooine)</label>
+		<!-- <iconPath>Toolbox/UI/CategoryStructural</iconPath> -->
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatDecorMisc</defName>
+		<label>Decoration (Misc)</label>
+		<!-- <iconPath>Toolbox/UI/CategoryStructural</iconPath> -->
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatDecorStatues</defName>
+		<label>Decoration (Statues)</label>
+		<!-- <iconPath>Toolbox/UI/CategoryStructural</iconPath> -->
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatDecalsMisc</defName>
+		<label>Decals (Misc)</label>
+		<!-- <iconPath>Toolbox/UI/CategoryStructural</iconPath> -->
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatDecalsFaction</defName>
+		<label>Decals (Factions)</label>
+		<!-- <iconPath>Toolbox/UI/CategoryStructural</iconPath> -->
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatDecalsOrganization</defName>
+		<label>Decals (Organizations)</label>
+		<!-- <iconPath>Toolbox/UI/CategoryStructural</iconPath> -->
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatDecalsSubFaction</defName>
+		<label>Decals (Sub Factions)</label>
+		<!-- <iconPath>Toolbox/UI/CategoryStructural</iconPath> -->
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatDecalsCorporations</defName>
+		<label>Decals (Corporations)</label>
+		<!-- <iconPath>Toolbox/UI/CategoryStructural</iconPath> -->
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+</Defs>

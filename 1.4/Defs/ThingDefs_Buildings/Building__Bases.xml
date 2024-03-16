@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="OuterRimFurnitureBase" ParentName="OuterRimBuildingBase" Abstract="True">
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<researchPrerequisites>
+			<li>OuterRim_HypertechDecor</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef Name="OuterRimFurnitureWithQualityBase" ParentName="OuterRimFurnitureBase" Abstract="True">
+		<thingClass>Building</thingClass>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Name="OuterRimArtableFurnitureBase" ParentName="OuterRimFurnitureWithQualityBase" Abstract="True">
+		<comps>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtFurniture</nameMaker>
+				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+	</ThingDef>
+
+	<ThingDef Name="OuterRimTableBase" ParentName="OuterRimFurnitureWithQualityBase" Abstract="True">
+		<description>People eat off tables when chairs are placed facing them.</description>
+		<thingClass>Building</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<pathCost>60</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<canOverlapZones>false</canOverlapZones>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<surfaceType>Eat</surfaceType>
+	</ThingDef>
+
+	<ThingDef Name="OuterRimTableGatherSpotBase" ParentName="OuterRimTableBase" Abstract="True">
+		<comps>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimFurnitureBase" Name="OuterRimBedBase" Abstract="True">
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingClass>Building_Bed</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<canOverlapZones>false</canOverlapZones>
+		<passability>PassThroughOnly</passability>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<building>
+			<buildingTags>
+				<li>Bed</li>
+			</buildingTags>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_AssignableToPawn">
+				<drawAssignmentOverlay>false</drawAssignmentOverlay>
+				<compClass>CompAssignableToPawn_Bed</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Name="OuterRimBedWithQualityBase" ParentName="OuterRimBedBase" Abstract="True">
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Name="OuterRimArtableBedBase" ParentName="OuterRimBedWithQualityBase" Abstract="True">
+		<comps>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtFurniture</nameMaker>
+				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+	</ThingDef>
+
+	<ThingDef Name="OuterRimWallLightBase" ParentName="OuterRimFurnitureBase" Abstract="True">
+		<description>A wall mounted lighting fixture.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Furniture/WallLamp</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<size>(1, 1)</size>
+		<uiIconScale>1</uiIconScale>
+		<uiIconOffset>(0,-0.2)</uiIconOffset>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<tickerType>Normal</tickerType>
+		<rotatable>true</rotatable>
+		<selectable>true</selectable>
+		<destroyable>true</destroyable>
+		<clearBuildingArea>false</clearBuildingArea>
+		<canOverlapZones>true</canOverlapZones>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<fillPercent>0.20</fillPercent>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Mass>2</Mass>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<allowWireConnection>false</allowWireConnection>
+		</building>
+		<placeWorkers>
+			<li>VanillaFurnitureExpanded.PlaceWorker_OnWall</li>
+		</placeWorkers>
+		<costList>
+			<OuterRim_Durasteel>15</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>1</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Flickable" />
+			<li Class="VanillaFurnitureExpanded.CompProperties_MountableOnWall" />
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBuildingBase" Name="OuterRimSculptureBase" Abstract="True">
+		<thingClass>Building_Art</thingClass>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<useHitPoints>true</useHitPoints>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsArt</li>
+		</thingCategories>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Flammability>1.0</Flammability>
+			<SellPriceFactor>1.10</SellPriceFactor>
+			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+		</statBases>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtSculpture</nameMaker>
+				<descriptionMaker>ArtDescription_Sculpture</descriptionMaker>
+				<canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
+			</li>
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Artistic</li>
+				</focusTypes>
+				<offsets>
+					<li Class="FocusStrengthOffset_Quality">
+						<curve>
+							<points>
+								<li>(0,0.12)</li> <!-- awful -->
+								<li>(1,0.16)</li> <!-- poor -->
+								<li>(2,0.20)</li> <!-- normal -->
+								<li>(3,0.22)</li> <!-- good -->
+								<li>(4,0.24)</li> <!-- excellent -->
+								<li>(5,0.26)</li> <!-- masterwork -->
+								<li>(6,0.28)</li> <!-- legendary -->
+							</points>
+						</curve>
+					</li>
+					<li Class="FocusStrengthOffset_BuildingDefsWithQuality">
+						<defs>
+							<li>SculptureSmall</li>
+							<li>SculptureLarge</li>
+							<li>SculptureGrand</li>
+						</defs>
+						<radius>9.9</radius>
+						<maxBuildings>8</maxBuildings>
+						<focusPerQuality>
+							<points>
+								<li>(0,0.0)</li> <!-- awful -->
+								<li>(1,0.0)</li> <!-- poor -->
+								<li>(2,0.01)</li> <!-- normal -->
+								<li>(3,0.01)</li> <!-- good -->
+								<li>(4,0.01)</li> <!-- excellent -->
+								<li>(5,0.02)</li> <!-- masterwork -->
+								<li>(6,0.02)</li> <!-- legendary -->
+							</points>
+						</focusPerQuality>
+						<explanationKey>MeditationFocusPerSculpture</explanationKey>
+						<explanationKeyAbstract>MeditationFocusPerSculptureAbstract</explanationKeyAbstract>
+					</li>
+				</offsets>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+		</placeWorkers>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<tradeTags>
+			<li>Art</li>
+		</tradeTags>
+		<ideoBuildingNamerBase MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoSculpture</ideoBuildingNamerBase>
+		<ritualFocus>
+			<spectateDistance>2</spectateDistance>
+			<allowedSpectateSides>Down</allowedSpectateSides>
+		</ritualFocus>
+		<researchPrerequisites>
+			<li>OuterRim_HypertechDecor</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</Defs>

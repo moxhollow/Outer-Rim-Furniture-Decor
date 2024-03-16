@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<KCSG.SettlementLayoutDef Abstract="True" Name="OuterRim_SettlementBase">
+		<settlementSize>72,72</settlementSize>
+		<avoidBridgeable>true</avoidBridgeable>
+		<avoidMountains>true</avoidMountains>
+		<centerBuildings>
+			<centerSize>72,72</centerSize>
+			<spaceAround>1</spaceAround>
+			<allowedStructures>
+				<li>
+					<count>2~5</count>
+					<tag>GenericPower</tag>
+				</li>
+				<li>
+					<count>1~2</count>
+					<tag>GenericBattery</tag>
+				</li>
+				<li>
+					<count>0~2</count>
+					<tag>GenericSecurity</tag>
+				</li>
+				<li>
+					<count>0~1</count>
+					<tag>GenericPodLauncher</tag>
+				</li>
+				<li>
+					<count>1~1</count>
+					<tag>GenericKitchen</tag>
+				</li>
+				<li>
+					<count>2~5</count>
+					<tag>GenericStockpile</tag>
+				</li>
+				<li>
+					<count>2~6</count>
+					<tag>GenericBedroom</tag>
+				</li>
+				<li>
+					<count>0~1</count>
+					<tag>GenericGrave</tag>
+				</li>
+				<li>
+					<count>1~1</count>
+					<tag>GenericRecroom</tag>
+				</li>
+				<li>
+					<count>1~1</count>
+					<tag>EmpireBedrooms</tag>
+				</li>
+				<li>
+					<count>1~1</count>
+					<tag>EmpireShuttle</tag>
+				</li>
+				<li>
+					<count>1~1</count>
+					<tag>EmpireThrone</tag>
+				</li>
+			</allowedStructures>
+		</centerBuildings>
+		<roadOptions>
+			<addMainRoad>true</addMainRoad>
+			<mainRoadCount>3</mainRoadCount>
+			<mainRoadDef>OuterRim_StoneHex_Permacrete</mainRoadDef>
+			<mainRoadWidth>3</mainRoadWidth>
+
+			<addLinkRoad>true</addLinkRoad>
+			<linkRoadDef>OuterRim_StoneHex_Permacrete</linkRoadDef>
+			<linkRoadWidth>1</linkRoadWidth>
+		</roadOptions>
+		<stuffableOptions>
+			<randomizeWall>true</randomizeWall>
+			<randomizeFurniture>true</randomizeFurniture>
+			<allowedWallStuff>
+				<li>OuterRim_Durasteel</li>
+				<li>OuterRim_Duracrete</li>
+				<li>OuterRim_Permacrete</li>
+				<li>OuterRim_Plastcrete</li>
+			</allowedWallStuff>
+			<excludedFunitureDefs>
+				<li>Barricade</li>
+				<li>Sandbags</li>
+				<li>Fence</li>
+			</excludedFunitureDefs>
+		</stuffableOptions>
+		<propsOptions>
+			<addMainRoadProps>true</addMainRoadProps>
+			<mainRoadPropsDefs>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarDeliveryBlack</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarFamilyBlack</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarPickupBlack</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarVintageBlack</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarDeliveryWhite</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarFamilyWhite</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarPickupWhite</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarVintageWhite</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarDeliverySilver</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarFamilySilver</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarPickupSilver</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarVintageSilver</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarDeliveryBlue</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarFamilyBlue</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarPickupBlue</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarVintageBlue</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarDeliveryRed</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarFamilyRed</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarPickupRed</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CarVintageRed</li>
+			</mainRoadPropsDefs>
+			<mainRoadPropsChance>0.03</mainRoadPropsChance>
+			<mainRoadMinDistance>9</mainRoadMinDistance>
+
+			<addLinkRoadProps>true</addLinkRoadProps>
+			<linkRoadPropsDefs>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_Cone</li>
+				<li MayRequire="VanillaExpanded.VFECore">Light_Streetlamp</li>
+			</linkRoadPropsDefs>
+			<linkRoadMinDistance>12</linkRoadMinDistance>
+
+			<scatterProps>true</scatterProps>
+			<scatterMinDistance>8</scatterMinDistance>
+			<scatterMaxAmount>150</scatterMaxAmount>
+			<scatterPropsDefs>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_BinBag</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_BoxLarge</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_BoxSmall</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CardboardBoxLarge</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_CardboardBoxSmall</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_BrickPile</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_BarrelGreen</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_BarrelGrey</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_BarrelRed</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_BarrelYellow</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_BarrelBlue</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_PalletCardboard</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_PalletBoxes</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_Pallet</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_PalletBarrelGreen</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_PalletBarrelGrey</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_PalletBarrelRed</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_PalletBarrelYellow</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_PalletBarrelBlue</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_ContainerGreen</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_ContainerGrey</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_ContainerRed</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_ContainerYellow</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_ContainerBlue</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_Pipes</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_Planks</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_ConcreteBags</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_WoodenLogs</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_WoodenLogsLarge</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_WoodenWagon</li>
+			</scatterPropsDefs>
+		</propsOptions>
+		<defenseOptions>
+			<addEdgeDefense>true</addEdgeDefense>
+			<addSandbags>false</addSandbags>
+			<addTurrets>true</addTurrets>
+			<allowedTurretsDefs>
+				<li>Turret_MiniTurret</li>
+				<li MayRequire="VanillaExpanded.VFESecurity">VFES_Turret_MilitaryTurret</li>
+				<li MayRequire="VanillaExpanded.VFESecurity">VFES_Turret_Searchlight</li>
+				<li MayRequire="VanillaExpanded.VFESecurity">VFES_Turret_Flame</li>
+			</allowedTurretsDefs>
+			<addMortars>true</addMortars>
+			<allowedMortarsDefs>
+				<li>Turret_Mortar</li>
+			</allowedMortarsDefs>
+			<pawnGroupMultiplier>1.45</pawnGroupMultiplier>
+		</defenseOptions>
+		<stockpileOptions>
+			<stockpileValueMultiplier>2.0</stockpileValueMultiplier>
+		</stockpileOptions>
+	</KCSG.SettlementLayoutDef>
+</Defs>

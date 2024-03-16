@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+		<defName>OuterRim_HypertechDecor</defName>
+		<label>Hypertech Decor</label>
+		<description>Unlocks access to a variety of decorations and furniture sets.</description>
+		<prerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+</Defs>

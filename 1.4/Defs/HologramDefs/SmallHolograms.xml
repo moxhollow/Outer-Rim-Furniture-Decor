@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<TabulaRasa.HologramDef>
+		<defName>OuterRim_Hologram_Credits</defName>
+		<label>credit sign</label>
+		<hologramTags>
+			<li>OuterRimHoloSmall</li>
+		</hologramTags>
+		<!-- First item in hologramLayers dictates the current glower colour for the projector. -->
+		<hologramLayers>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_Credits0</texPath>
+				<defaultColor>(217, 177, 76)</defaultColor>
+			</li>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_Credits1</texPath>
+				<defaultColor>(69, 186, 104)</defaultColor>
+			</li>
+		</hologramLayers>
+	</TabulaRasa.HologramDef>
+
+	<TabulaRasa.HologramDef>
+		<defName>OuterRim_Hologram_DeathWatch</defName>
+		<label>deathwatch sign</label>
+		<hologramTags>
+			<li>OuterRimHoloSmall</li>
+		</hologramTags>
+		<!-- First item in hologramLayers dictates the current glower colour for the projector. -->
+		<hologramLayers>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_DeathWatch0</texPath>
+				<defaultColor>(217, 177, 76)</defaultColor>
+			</li>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_DeathWatch1</texPath>
+				<defaultColor>(69, 186, 104)</defaultColor>
+			</li>
+		</hologramLayers>
+	</TabulaRasa.HologramDef>
+
+	<TabulaRasa.HologramDef>
+		<defName>OuterRim_Hologram_DroidDepot</defName>
+		<label>droid depot sign</label>
+		<hologramTags>
+			<li>OuterRimHoloSmall</li>
+		</hologramTags>
+		<!-- First item in hologramLayers dictates the current glower colour for the projector. -->
+		<hologramLayers>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_DroidDepot0</texPath>
+				<defaultColor>(217, 177, 76)</defaultColor>
+			</li>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_DroidDepot1</texPath>
+				<defaultColor>(69, 186, 104)</defaultColor>
+			</li>
+		</hologramLayers>
+	</TabulaRasa.HologramDef>
+
+	<TabulaRasa.HologramDef>
+		<defName>OuterRim_Hologram_Imperial</defName>
+		<label>imperial sign</label>
+		<hologramTags>
+			<li>OuterRimHoloSmall</li>
+		</hologramTags>
+		<!-- First item in hologramLayers dictates the current glower colour for the projector. -->
+		<hologramLayers>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_Imperial0</texPath>
+				<defaultColor>(217, 177, 76)</defaultColor>
+			</li>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_Imperial1</texPath>
+				<defaultColor>(69, 186, 104)</defaultColor>
+			</li>
+		</hologramLayers>
+	</TabulaRasa.HologramDef>
+
+	<TabulaRasa.HologramDef>
+		<defName>OuterRim_Hologram_Jedi</defName>
+		<label>jedi sign</label>
+		<hologramTags>
+			<li>OuterRimHoloSmall</li>
+		</hologramTags>
+		<!-- First item in hologramLayers dictates the current glower colour for the projector. -->
+		<hologramLayers>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_Jedi0</texPath>
+				<defaultColor>(217, 177, 76)</defaultColor>
+			</li>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_Jedi1</texPath>
+				<defaultColor>(69, 186, 104)</defaultColor>
+			</li>
+		</hologramLayers>
+	</TabulaRasa.HologramDef>
+
+	<TabulaRasa.HologramDef>
+		<defName>OuterRim_Hologram_NoDroids</defName>
+		<label>no droids sign</label>
+		<hologramTags>
+			<li>OuterRimHoloSmall</li>
+		</hologramTags>
+		<!-- First item in hologramLayers dictates the current glower colour for the projector. -->
+		<hologramLayers>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_NoDroids0</texPath>
+				<defaultColor>(217, 177, 76)</defaultColor>
+			</li>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_NoDroids1</texPath>
+				<defaultColor>(69, 186, 104)</defaultColor>
+			</li>
+		</hologramLayers>
+	</TabulaRasa.HologramDef>
+
+	<TabulaRasa.HologramDef>
+		<defName>OuterRim_Hologram_Rebel</defName>
+		<label>rebel sign</label>
+		<hologramTags>
+			<li>OuterRimHoloSmall</li>
+		</hologramTags>
+		<!-- First item in hologramLayers dictates the current glower colour for the projector. -->
+		<hologramLayers>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_Rebel0</texPath>
+				<defaultColor>(217, 177, 76)</defaultColor>
+			</li>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_Rebel1</texPath>
+				<defaultColor>(69, 186, 104)</defaultColor>
+			</li>
+		</hologramLayers>
+	</TabulaRasa.HologramDef>
+
+	<TabulaRasa.HologramDef>
+		<defName>OuterRim_Hologram_Republic</defName>
+		<label>republic sign</label>
+		<hologramTags>
+			<li>OuterRimHoloSmall</li>
+		</hologramTags>
+		<!-- First item in hologramLayers dictates the current glower colour for the projector. -->
+		<hologramLayers>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_Republic0</texPath>
+				<defaultColor>(217, 177, 76)</defaultColor>
+			</li>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_Republic1</texPath>
+				<defaultColor>(69, 186, 104)</defaultColor>
+			</li>
+		</hologramLayers>
+	</TabulaRasa.HologramDef>
+
+	<TabulaRasa.HologramDef>
+		<defName>OuterRim_Hologram_Seperatist</defName>
+		<label>seperatist sign</label>
+		<hologramTags>
+			<li>OuterRimHoloSmall</li>
+		</hologramTags>
+		<!-- First item in hologramLayers dictates the current glower colour for the projector. -->
+		<hologramLayers>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_Seperatist0</texPath>
+				<defaultColor>(217, 177, 76)</defaultColor>
+			</li>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_Seperatist1</texPath>
+				<defaultColor>(69, 186, 104)</defaultColor>
+			</li>
+		</hologramLayers>
+	</TabulaRasa.HologramDef>
+
+	<TabulaRasa.HologramDef>
+		<defName>OuterRim_Hologram_Sith</defName>
+		<label>sith sign</label>
+		<hologramTags>
+			<li>OuterRimHoloSmall</li>
+		</hologramTags>
+		<!-- First item in hologramLayers dictates the current glower colour for the projector. -->
+		<hologramLayers>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_Sith0</texPath>
+				<defaultColor>(217, 177, 76)</defaultColor>
+			</li>
+			<li>
+				<texPath>OuterRim/Building/Projectors/Small/Holo_Sith1</texPath>
+				<defaultColor>(69, 186, 104)</defaultColor>
+			</li>
+		</hologramLayers>
+	</TabulaRasa.HologramDef>
+
+</Defs>
