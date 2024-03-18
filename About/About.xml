@@ -4,6 +4,7 @@
 	<description>Outer Rim module containing all the furniture, decals, joy buildings, statues, etc. If loaded without Outer Rim - Core it will automatically patch all contained items to use vanilla materials in place of the usual Outer Rim ones, and switch the required research to Complex Furniture.</description>
 	<author>Neronix17</author>
 	<packageId>Neronix17.OuterRim.FurnitureAndDecor</packageId>
+	<modIconPath IgnoreIfNoMatchingField="True">OuterRim/ModIcon</modIconPath>
 	<url>https://www.patreon.com/neronix17</url>
 	<supportedVersions>
 		<li>1.4</li>
