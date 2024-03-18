@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimSculptureBase">
+		<defName>OuterRim_SageOfDwartii_BraataDanlos</defName>
+		<label>braata danlos statue</label>
+		<description>A huge statue of Braata Danlos, one of the Four Sages of Dwartii.</description>
+		<castEdgeShadows>true</castEdgeShadows>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>OuterRim/Building/Statues/BraataDanlos</texPath>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<size>(2,2)</size>
+		<uiIconScale>0.3</uiIconScale>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Beauty>400</Beauty>
+			<Mass>28</Mass>
+			<WorkToMake>105000</WorkToMake>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">40</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>400</costStuffCount>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatDecorStatues</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimSculptureBase">
+		<defName>OuterRim_SageOfDwartii_FayaRodemos</defName>
+		<label>faya rodemos statue</label>
+		<description>A huge statue of Faya Rodemos, one of the Four Sages of Dwartii.</description>
+		<castEdgeShadows>true</castEdgeShadows>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>OuterRim/Building/Statues/FayaRodemos</texPath>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<size>(2,2)</size>
+		<uiIconScale>0.3</uiIconScale>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Beauty>400</Beauty>
+			<Mass>28</Mass>
+			<WorkToMake>105000</WorkToMake>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">40</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>400</costStuffCount>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatDecorStatues</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimSculptureBase">
+		<defName>OuterRim_SageOfDwartii_SistrosNevet</defName>
+		<label>sistros nevet statue</label>
+		<description>A huge statue of Sistros Nevet, one of the Four Sages of Dwartii.</description>
+		<castEdgeShadows>true</castEdgeShadows>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>OuterRim/Building/Statues/SistrosNevet</texPath>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<size>(2,2)</size>
+		<uiIconScale>0.3</uiIconScale>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Beauty>400</Beauty>
+			<Mass>28</Mass>
+			<WorkToMake>105000</WorkToMake>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">40</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>400</costStuffCount>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatDecorStatues</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimSculptureBase">
+		<defName>OuterRim_SageOfDwartii_YanjonZelmar</defName>
+		<label>yanjon zelmar statue</label>
+		<description>A huge statue of Yanjon Zelmar, one of the Four Sages of Dwartii.</description>
+		<castEdgeShadows>true</castEdgeShadows>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>OuterRim/Building/Statues/YanjonZelmar</texPath>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<size>(2,2)</size>
+		<uiIconScale>0.3</uiIconScale>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Beauty>400</Beauty>
+			<Mass>28</Mass>
+			<WorkToMake>105000</WorkToMake>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">40</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>400</costStuffCount>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatDecorStatues</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

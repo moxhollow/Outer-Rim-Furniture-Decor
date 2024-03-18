@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_DecalBase" Name="OuterRim_Decals_Faction" Abstract="True">
+		<graphicData>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<size>(3, 3)</size>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatDecalsFaction</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_ChissAscendancy</defName>
+		<label>Decal (Chiss Ascendancy)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/ChissAscendancy</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_ConfederacyOfIndependantSystems</defName>
+		<label>Decal (Confederacy Of Independant Systems)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/ConfederacyOfIndependantSystems</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_FirstOrder</defName>
+		<label>Decal (First Order)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/FirstOrder</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_GalacticEmpire</defName>
+		<label>Decal (Galactic Empire)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/GalacticEmpire</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_GalacticRepublic</defName>
+		<label>Decal (Galactic Republic)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/GalacticRepublic</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_GalacticRepublicCW</defName>
+		<label>Decal (Galactic Republic, CW)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/GalacticRepublicCW</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_Gungans</defName>
+		<label>Decal (Gungans)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/Gungans</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_HapesConsortium</defName>
+		<label>Decal (Hapes Consortium)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/HapesConsortium</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_InfiniteEmpire</defName>
+		<label>Decal (Infinite Empire)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/InfiniteEmpire</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_JediOrder</defName>
+		<label>Decal (Jedi Order)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/JediOrder</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_NabooRoyals</defName>
+		<label>Decal (Naboo Royals)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/NabooRoyals</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_NewRepublic</defName>
+		<label>Decal (New Republic)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/NewRepublic</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_OldRepublic</defName>
+		<label>Decal (Old Republic)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/OldRepublic</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_RebelAlliance</defName>
+		<label>Decal (Rebel Alliance)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/RebelAlliance</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_Resistance</defName>
+		<label>Decal (Resistance)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/Resistance</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_RevanSithEmpire</defName>
+		<label>Decal (Revan's Sith Empire)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/RevanSithEmpire</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_Sith</defName>
+		<label>Decal (Sith)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/Sith</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_SithEmpire</defName>
+		<label>Decal (Sith Empire)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/SithEmpire</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_SithEternal</defName>
+		<label>Decal (Sith Eternal)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/SithEternal</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_Vong</defName>
+		<label>Decal (Vong)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/Vong</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_KotORRepublic</defName>
+		<label>Decal (KotOR Republic)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Additional/OldRepublic</texPath>
+		</graphicData>
+	</ThingDef>
+		
+	<ThingDef ParentName="OuterRim_Decals_Faction">
+		<defName>OuterRim_Decal_DarkLordOfSith</defName>
+		<label>Decal (Dark Lord of the Sith)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Additional/DarkLordOfSith</texPath>
+		</graphicData>
+	</ThingDef>
+
+</Defs>

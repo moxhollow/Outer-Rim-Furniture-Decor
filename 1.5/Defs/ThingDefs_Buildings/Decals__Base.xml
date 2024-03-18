@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Abstract="True" ParentName="BuildingBase" Name="OuterRim_DecalBase">
+		<description>A floor decal.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<color>(255,255,255,160)</color>
+		</graphicData>
+		<comps>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Floor</altitudeLayer>
+		<researchPrerequisites>
+			<li>OuterRim_HypertechDecor</li>
+		</researchPrerequisites>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<paintable>true</paintable>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>5</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0</Flammability>
+			<Beauty>1</Beauty>
+		</statBases>
+		<size>(1,1)</size>
+		<costList>
+			<OuterRim_Durasteel>1</OuterRim_Durasteel>
+		</costList>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<uiIconScale>1</uiIconScale>
+		<filthLeaving Inherit="False" />
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+
+</Defs>

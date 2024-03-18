@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>_
+
+	<ThingDef ParentName="OuterRim_DecalBase" Name="OuterRim_AurebeshDecals" Abstract="True">
+		<graphicData>
+			<drawSize>(1.2, 1.2)</drawSize>
+		</graphicData>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatDecalsMisc</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+		
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_Decal_Ashla</defName>
+		<label>Decal (Ashla)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/Ashla</texPath>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<size>(3, 3)</size>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_Decal_Bogan</defName>
+		<label>Decal (Bogan)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/Bogan</texPath>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<size>(3, 3)</size>
+	</ThingDef> 
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolA</defName>
+		<label>Aurebesh Symbol (A)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolA</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolB</defName>
+		<label>Aurebesh Symbol (B)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolB</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolC</defName>
+		<label>Aurebesh Symbol (C)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolC</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolD</defName>
+		<label>Aurebesh Symbol (D)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolD</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolE</defName>
+		<label>Aurebesh Symbol (E)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolE</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolF</defName>
+		<label>Aurebesh Symbol (F)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolF</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolG</defName>
+		<label>Aurebesh Symbol (G)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolG</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolH</defName>
+		<label>Aurebesh Symbol (H)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolH</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolI</defName>
+		<label>Aurebesh Symbol (I)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolI</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolJ</defName>
+		<label>Aurebesh Symbol (J)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolJ</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolK</defName>
+		<label>Aurebesh Symbol (K)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolK</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolL</defName>
+		<label>Aurebesh Symbol (L)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolL</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolM</defName>
+		<label>Aurebesh Symbol (M)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolM</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolN</defName>
+		<label>Aurebesh Symbol (N)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolN</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolO</defName>
+		<label>Aurebesh Symbol (O)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolO</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolP</defName>
+		<label>Aurebesh Symbol (P)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolP</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolQ</defName>
+		<label>Aurebesh Symbol (Q)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolQ</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolR</defName>
+		<label>Aurebesh Symbol (R)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolR</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolS</defName>
+		<label>Aurebesh Symbol (S)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolS</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolT</defName>
+		<label>Aurebesh Symbol (T)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolT</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolU</defName>
+		<label>Aurebesh Symbol (U)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolU</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolV</defName>
+		<label>Aurebesh Symbol (V)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolV</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolW</defName>
+		<label>Aurebesh Symbol (W)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolW</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolX</defName>
+		<label>Aurebesh Symbol (X)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolX</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolY</defName>
+		<label>Aurebesh Symbol (Y)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolY</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolZ</defName>
+		<label>Aurebesh Symbol (Z)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbolZ</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolOne</defName>
+		<label>Aurebesh Symbol (1)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbol1</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolTwo</defName>
+		<label>Aurebesh Symbol (2)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbol2</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolThree</defName>
+		<label>Aurebesh Symbol (3)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbol3</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolFour</defName>
+		<label>Aurebesh Symbol (4)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbol4</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolFive</defName>
+		<label>Aurebesh Symbol (5)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbol5</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolSix</defName>
+		<label>Aurebesh Symbol (6)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbol6</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolSeven</defName>
+		<label>Aurebesh Symbol (7)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbol7</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolEight</defName>
+		<label>Aurebesh Symbol (8)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbol8</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolNine</defName>
+		<label>Aurebesh Symbol (9)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbol9</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_AurebeshDecals">
+		<defName>OuterRim_AurebeshDecalSymbolZero</defName>
+		<label>Aurebesh Symbol (0)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Aurebesh/DecalSymbol0</texPath>
+		</graphicData>
+	</ThingDef>
+
+</Defs>

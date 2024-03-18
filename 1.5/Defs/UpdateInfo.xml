@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TabulaRasa.UpdateDef>
+		<defName>OuterRim_FurnDecor_05022023</defName>
+		<date>2023/02/05</date>
+		<banner>UpdateInfo/O21OuterRim</banner>
+		<content>Minor content update!
+
+- Finished existing furniture sets (Corellia/Tatooine/Coruscant)
+- Added several decals
+
+Left click to go to Workshop page, Right click to dismiss update.</content>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2919553599</linkUrl>
+		<important>False</important>
+	</TabulaRasa.UpdateDef>
+
+</Defs>

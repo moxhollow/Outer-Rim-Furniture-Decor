@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_DecalBase" Name="OuterRim_Decals_SubFactions" Abstract="True">
+		<graphicData>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<size>(3, 3)</size>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatDecalsSubFaction</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_7thFleet</defName>
+		<label>Decal (7th Fleet)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/7thFleet</texPath>
+		</graphicData>
+	</ThingDef>
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_AlphabetSquadron</defName>
+		<label>Decal (Alphabet Squadron)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/AlphabetSquadron</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_BlackSquadron</defName>
+		<label>Decal (Black Squadron)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/BlackSquadron</texPath>
+		</graphicData>
+	</ThingDef>
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_BladeSquadron</defName>
+		<label>Decal (Blade Squadron)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/BladeSquadron</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_CobaltSquadron</defName>
+		<label>Decal (Cobalt Squadron)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/CobaltSquadron</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_CoruscantHealthAdministration</defName>
+		<label>Decal (Coruscant Health Administration)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/CoruscantHealthAdministration</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_CoruscantSecurityForce</defName>
+		<label>Decal (Coruscant Security Force)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/CoruscantSecurityForce</texPath>
+		</graphicData>
+	</ThingDef>
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_Fulcrum</defName>
+		<label>Decal (Fulcrum)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/Fulcrum</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_GalacticSenate</defName>
+		<label>Decal (Galactic Senate)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/GalacticSenate</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_GoldSquadron</defName>
+		<label>Decal (Gold Squadron)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/GoldSquadron</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_ImperialDepartmentOfMilitaryResearch</defName>
+		<label>Decal (Imperial Dept. Of Military Research)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/ImperialDepartmentOfMilitaryResearch</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_ImperialInformationOffice</defName>
+		<label>Decal (Imperial Information Office)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/ImperialInformationOffice</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_ImperialMunitions</defName>
+		<label>Decal (Imperial Munitions)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/ImperialMunitions</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_ImperialPressCorps</defName>
+		<label>Decal (Imperial Press Corps)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/ImperialPressCorps</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_InfernoSquad</defName>
+		<label>Decal (Inferno Squad)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/InfernoSquad</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_JediYounglings</defName>
+		<label>Decal (Jedi Younglings)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/JediYounglings</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_OnderonRebels</defName>
+		<label>Decal (Onderon Rebels)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/OnderonRebels</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_Partisans</defName>
+		<label>Decal (Partisans)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/Partisans</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_RebelAllianceIntelligence</defName>
+		<label>Decal (Rebel Alliance Intelligence)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/RebelAllianceIntelligence</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_RebelSquadron</defName>
+		<label>Decal (Rebel Squadron)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/RebelSquadron</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_RepublicNavy</defName>
+		<label>Decal (Republic Navy)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/RepublicNavy</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_SkystrikeAcademy</defName>
+		<label>Decal (Skystrike Academy)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/SkystrikeAcademy</texPath>
+		</graphicData>
+	</ThingDef>
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_Starbird</defName>
+		<label>Decal (Starbird)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/Starbird</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_StarlightSquadron</defName>
+		<label>Decal (Starlight Squadron)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/StarlightSquadron</texPath>
+		</graphicData>
+	</ThingDef>  
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_TarkinInitiative</defName>
+		<label>Decal (Tarkin Initiative)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/TarkinInitiative</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_TwilightCompany</defName>
+		<label>Decal (Twilight Company)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/TwilightCompany</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_VanguardSquadron</defName>
+		<label>Decal (Vanguard Squadron)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/VanguardSquadron</texPath>
+		</graphicData>
+	</ThingDef> 
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_HavocSquad</defName>
+		<label>Decal (Havoc Squad)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Additional/HavocSquad</texPath>
+		</graphicData>
+	</ThingDef>
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_Grievous</defName>
+		<label>Decal (Grievous)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Additional/Grievous</texPath>
+		</graphicData>
+	</ThingDef>
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_ImperialCloning</defName>
+		<label>Decal (Imperial Cloning)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Additional/ImperialCloning</texPath>
+		</graphicData>
+	</ThingDef>
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_KaminoCloning</defName>
+		<label>Decal (Kamino Cloning)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Additional/KaminoCloning</texPath>
+		</graphicData>
+	</ThingDef>
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_KaminoSecurity</defName>
+		<label>Decal (Kamino Security)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Additional/KaminoSecurity</texPath>
+		</graphicData>
+	</ThingDef>
+		
+	<ThingDef ParentName="OuterRim_Decals_SubFactions">
+		<defName>OuterRim_Decal_Yoda</defName>
+		<label>Decal (Yoda)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Additional/YodasCrest</texPath>
+		</graphicData>
+	</ThingDef>
+
+</Defs>

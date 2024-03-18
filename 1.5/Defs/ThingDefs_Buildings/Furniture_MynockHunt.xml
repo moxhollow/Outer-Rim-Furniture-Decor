@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_HoloArcade_MynockHunt</defName>
+		<label>holonet arcade (mynock hunt)</label>
+		<description>A tall cabinet that holds a self powered computer capable of running a holonet game. This model was built to handle Mynock Hunt.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/MynockHunt</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<uiIconScale>0.3</uiIconScale>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<rotatable>true</rotatable>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<thingCategories>
+			<li>BuildingsJoy</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>1.0</Flammability>
+			<JoyGainFactor>1.3</JoyGainFactor>
+		</statBases>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<researchPrerequisites>
+			<li>OuterRim_HypertechDecor</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<building>
+			<joyKind>OuterRim_HoloNetArcade</joyKind>
+			<watchBuildingStandDistanceRange>
+				<min>1</min>
+				<max>1</max>
+			</watchBuildingStandDistanceRange>
+			<watchBuildingStandRectWidth>1</watchBuildingStandRectWidth>
+		</building>
+		<costList>
+			<OuterRim_Durasteel>120</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>4</OuterRim_ComponentHypertech>
+		</costList>
+		<pathCost>10</pathCost>
+		<tradeTags>
+			<li>Television</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatRecreation</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<JoyKindDef>
+		<defName>OuterRim_HoloNetArcade</defName>
+		<label>holonet play</label>
+	</JoyKindDef>
+
+	<JobDef>
+		<defName>OuterRim_HoloNetArcadePlay</defName>
+		<driverClass>TabulaRasa.JobDriver_PlaySounds</driverClass>
+		<reportString>playing holonet game.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joySkill>Shooting</joySkill>
+		<joyXpPerTick>0.002</joyXpPerTick>
+		<joyKind>OuterRim_HoloNetArcade</joyKind>
+		<taleOnCompletion>PlayedGame</taleOnCompletion>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_Sounds">
+				<soundDefs>
+					<li>OuterRim_HoloNetArcadeA</li>
+					<li>OuterRim_HoloNetArcadeB</li>
+					<li>OuterRim_HoloNetArcadeC</li>
+					<li>OuterRim_HoloNetArcadeD</li>
+					<li>OuterRim_HoloNetArcadeE</li>
+					<li>OuterRim_HoloNetArcadeF</li>
+				</soundDefs>
+			</li>
+		</modExtensions>
+	</JobDef>
+
+	<JoyGiverDef>
+		<defName>OuterRim_HoloNetArcades</defName>
+		<giverClass>JoyGiver_WatchBuilding</giverClass>
+		<baseChance>2</baseChance>
+		<desireSit>false</desireSit>
+		<thingDefs>
+			<li>OuterRim_HoloArcade_MynockHunt</li>
+		</thingDefs>
+		<jobDef>OuterRim_HoloNetArcadePlay</jobDef>
+		<joyKind>OuterRim_HoloNetArcade</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+</Defs>

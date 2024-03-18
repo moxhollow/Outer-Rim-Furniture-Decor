@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Decals -->
+
+	<DesignatorDropdownGroupDef>
+		<defName>OuterRim_AurebeshWords</defName>
+		<label>Aurebesh Word Decals</label>
+	</DesignatorDropdownGroupDef>
+
+</Defs>

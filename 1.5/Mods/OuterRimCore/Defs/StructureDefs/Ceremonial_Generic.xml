@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<KCSG.StructureLayoutDef>
+		<defName>OuterRim_CeremonialA</defName>
+		<isStorage>true</isStorage>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,OuterRim_DoorCoruscant,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,OuterRim_DoorCoruscant,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,.,.,.,.,.</li>
+				<li>.,.,.,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,PlantPot_OuterRim_Durasteel,.,PlantPot_OuterRim_Durasteel,PlantPot_OuterRim_Durasteel,.,PlantPot_OuterRim_Durasteel,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,.,.,.,.</li>
+				<li>.,.,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,PlantPot_OuterRim_Durasteel,.,.,.,.,.,.,PlantPot_OuterRim_Durasteel,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,.,.,.</li>
+				<li>.,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,.,.,.,Column_OuterRim_Durasteel,.,.,Column_OuterRim_Durasteel,.,.,.,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,.,.</li>
+				<li>.,OuterRim_HypertechWall_Steel,OuterRim_CoruscantDiningChair_North,OuterRim_CoruscantDiningChair_North,OuterRim_CoruscantDiningChair_North,OuterRim_CoruscantDiningChair_North,.,.,.,.,OuterRim_CoruscantDiningChair_North,OuterRim_CoruscantDiningChair_North,OuterRim_CoruscantDiningChair_North,OuterRim_CoruscantDiningChair_North,OuterRim_HypertechWall_Steel,.,.</li>
+				<li>.,OuterRim_HypertechWall_Steel,.,OuterRim_Coruscant2x1Table_South,.,OuterRim_Coruscant2x1Table_South,Column_OuterRim_Durasteel,.,.,Column_OuterRim_Durasteel,.,OuterRim_Coruscant2x1Table_South,.,OuterRim_Coruscant2x1Table_South,OuterRim_HypertechWall_Steel,.,.</li>
+				<li>.,OuterRim_HypertechWall_Steel,OuterRim_CoruscantDiningChair_South,OuterRim_CoruscantDiningChair_South,OuterRim_CoruscantDiningChair_South,OuterRim_CoruscantDiningChair_South,.,.,.,.,OuterRim_CoruscantDiningChair_South,OuterRim_CoruscantDiningChair_South,OuterRim_CoruscantDiningChair_South,OuterRim_CoruscantDiningChair_South,OuterRim_HypertechWall_Steel,.,.</li>
+				<li>.,OuterRim_HypertechWall_Steel,.,.,.,.,Column_OuterRim_Durasteel,.,.,Column_OuterRim_Durasteel,.,.,.,.,OuterRim_HypertechWall_Steel,.,.</li>
+				<li>.,OuterRim_HypertechWall_Steel,.,.,OuterRim_CoruscantStool_North,OuterRim_CoruscantStool_North,OuterRim_CoruscantStool_North,.,.,OuterRim_CoruscantStool_North,OuterRim_CoruscantStool_North,OuterRim_CoruscantStool_North,.,.,OuterRim_HypertechWall_Steel,.,.</li>
+				<li>.,OuterRim_HypertechWall_Steel,OuterRim_SageOfDwartii_BraataDanlos_OuterRim_Durasteel,.,OuterRim_CoruscantStool_North,OuterRim_CoruscantStool_North,OuterRim_CoruscantStool_North,.,.,OuterRim_CoruscantStool_North,OuterRim_CoruscantStool_North,OuterRim_CoruscantStool_North,OuterRim_SageOfDwartii_FayaRodemos_OuterRim_Durasteel,.,OuterRim_HypertechWall_Steel,.,.</li>
+				<li>.,OuterRim_HypertechWall_Steel,.,.,OuterRim_CoruscantStool_North,OuterRim_CoruscantStool_North,OuterRim_CoruscantStool_North,.,.,OuterRim_CoruscantStool_North,OuterRim_CoruscantStool_North,OuterRim_CoruscantStool_North,.,.,OuterRim_HypertechWall_Steel,.,.</li>
+				<li>.,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,PlantPot_OuterRim_Durasteel,.,.,.,.,.,.,.,.,PlantPot_OuterRim_Durasteel,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,.,.</li>
+				<li>.,.,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,PlantPot_OuterRim_Durasteel,OuterRim_SageOfDwartii_SistrosNevet_OuterRim_Durasteel,.,MarriageSpot_North,.,OuterRim_SageOfDwartii_YanjonZelmar_OuterRim_Durasteel,.,PlantPot_OuterRim_Durasteel,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,.,.,.</li>
+				<li>.,.,.,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,.,.,PlantPot_OuterRim_Durasteel,PlantPot_OuterRim_Durasteel,.,.,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,.,.,.,.</li>
+				<li>.,.,.,.,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,OuterRim_HypertechWall_Steel,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			</li>
+		</layouts>
+		<terrainGrid>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,OuterRim_VentedFloor_Steel,.,.,OuterRim_VentedFloor_Steel,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,CarpetScarlet,CarpetScarlet,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,.,.,.,.,.,.</li>
+			<li>.,.,.,.,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,CarpetScarlet,CarpetScarlet,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,.,.,.,.</li>
+			<li>.,.,.,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,CarpetScarlet,CarpetScarlet,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,.,.,.,.</li>
+			<li>.,.,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,CarpetScarlet,CarpetScarlet,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,.,.,.</li>
+			<li>.,.,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,CarpetScarlet,CarpetScarlet,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,.,.,.</li>
+			<li>.,.,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,CarpetScarlet,CarpetScarlet,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,.,.,.</li>
+			<li>.,.,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,CarpetScarlet,CarpetScarlet,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,.,.,.</li>
+			<li>.,.,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,CarpetScarlet,CarpetScarlet,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,.,.,.</li>
+			<li>.,.,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,CarpetScarlet,CarpetScarlet,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,.,.,.</li>
+			<li>.,.,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,CarpetScarlet,CarpetScarlet,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,.,.,.</li>
+			<li>.,.,.,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,CarpetScarlet,CarpetScarlet,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,.,.,.,.</li>
+			<li>.,.,.,.,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,CarpetScarlet,CarpetScarlet,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,.,.,.,.,.</li>
+			<li>.,.,.,.,.,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,OuterRim_PaneledFloorV_Steel,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		</terrainGrid>
+		<forceGenerateRoof>true</forceGenerateRoof>
+		<randomizeWallStuffAtGen>true</randomizeWallStuffAtGen>
+		<tags>
+			<li>OuterRim_Generic_Residential</li>
+		</tags>
+		<modRequirements>
+			<li>neronix17.outerrim.core</li>
+			<li>neronix17.outerrim.furnitureanddecor</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
+
+</Defs>

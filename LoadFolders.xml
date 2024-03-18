@@ -8,4 +8,12 @@
 		<li IfModActive="Neronix17.OuterRim.Core">1.4/OuterRimCore</li>
 		<li IfModNotActive="Neronix17.OuterRim.Core">1.4/Vanilla</li>
 	</v1.4>
+	<v1.5>
+		<li>/</li>
+		<!-- Gotta load some bases from OR Core first otherwise it freaks out. -->
+		<li IfModNotActive="Neronix17.OuterRim.Core">1.5/VanillaPre</li>
+		<li>1.5</li>
+		<li IfModActive="Neronix17.OuterRim.Core">1.5/OuterRimCore</li>
+		<li IfModNotActive="Neronix17.OuterRim.Core">1.5/Vanilla</li>
+	</v1.5>
 </loadFolders>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- ==================== 1x1 Table ==================== -->
+
+	<!-- ==================== 2x1 Table ==================== -->
+
+	<!-- ==================== 2x2 Table ==================== -->
+
+	<!-- ==================== Single Bed ==================== -->
+
+	<ThingDef ParentName="OuterRimBedWithQualityBase">
+		<defName>OuterRim_GenericBed</defName>
+		<label>bed (generic)</label>
+		<description>A mattress and sheets on a frame for resting.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Furniture/ColonyBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.15,2.15)</drawSize>
+		</graphicData>
+		<size>(1,2)</size>
+		<uiIconScale>0.90</uiIconScale>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>30</Mass>
+			<BedRestEffectiveness>1</BedRestEffectiveness>
+			<Comfort>0.75</Comfort>
+			<ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+		</statBases>
+		<building>
+			<bed_showSleeperBody>False</bed_showSleeperBody>
+			<bed_healPerDay>4</bed_healPerDay>
+		</building>
+		<costList>
+			<OuterRim_Durasteel>45</OuterRim_Durasteel>
+		</costList>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
+					<!-- Outer Rim - Matching Set Bonus Only -->
+					<!-- <li>OuterRim_GenericEndTable</li> -->
+					<!-- <li>OuterRim_GenericDresser</li> -->
+				</linkableFacilities>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatFurnitureGeneric</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ==================== Double Bed ==================== -->
+
+	<!-- ==================== Dining Chair ==================== -->
+
+	<!-- ==================== Dresser ==================== -->
+
+	<!-- ==================== End Table ==================== -->
+
+	<!-- ==================== Stool ==================== -->
+
+	<!-- ==================== Door ==================== -->
+
+	<!-- ==================== Street Lamp ==================== -->
+
+	<!-- ==================== Floor Lamps ==================== -->
+
+	<ThingDef Name="OuterRimFloorLampBase" ParentName="OuterRimFurnitureBase">
+		<defName>OuterRim_FloorLamp</defName>
+		<label>generic floor lamp</label>
+		<description>Floor mounted lamp, contains advanced anti-tripping features.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Furniture/FloorLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>700</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>15</Beauty>
+			<Mass>2</Mass>
+		</statBases>
+		<costList>
+			<OuterRim_Durasteel>20</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>1</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>9</glowRadius>
+				<glowColor>(217, 217, 217)</glowColor>
+				<colorPickerEnabled>true</colorPickerEnabled>
+				<darklightToggle>true</darklightToggle>
+			</li>
+			<li Class="CompProperties_Flickable" />
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatFurnitureGeneric</subCategory>
+				<showOnlyInCategory>false</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ==================== Wall Lamps ==================== -->
+
+	<ThingDef ParentName="OuterRimWallLightBase">
+		<defName>OuterRim_WallLamp</defName>
+		<label>wall lamp (generic)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Furniture/WallLamp</texPath>
+		</graphicData>
+		<comps>
+			<li Class="VanillaFurnitureExpanded.CompProperties_GlowerExtended">
+				<spawnGlowerInFacedCell>true</spawnGlowerInFacedCell>
+				<colorOptions>
+					<li>
+						<glowRadius>9</glowRadius>
+						<glowColor>(217, 217, 217)</glowColor>
+						<colorLabel>normal</colorLabel>
+					</li>
+					<li>
+						<glowRadius>9</glowRadius>
+						<glowColor>(78, 226, 229)</glowColor>
+						<colorLabel>darklight</colorLabel>
+					</li>
+					<li>
+						<glowRadius>9</glowRadius>
+						<glowColor>(255, 216, 61)</glowColor>
+						<colorLabel>yellow</colorLabel>
+					</li>
+					<li>
+						<glowRadius>9</glowRadius>
+						<glowColor>(248, 146, 29)</glowColor>
+						<colorLabel>orange</colorLabel>
+					</li>
+					<li>
+						<glowRadius>9</glowRadius>
+						<glowColor>(176, 46, 38)</glowColor>
+						<colorLabel>red</colorLabel>
+					</li>
+					<li>
+						<glowRadius>9</glowRadius>
+						<glowColor>(93, 124, 21)</glowColor>
+						<colorLabel>green</colorLabel>
+					</li>
+					<li>
+						<glowRadius>9</glowRadius>
+						<glowColor>(58, 179, 218)</glowColor>
+						<colorLabel>cyan</colorLabel>
+					</li>
+					<li>
+						<glowRadius>9</glowRadius>
+						<glowColor>(60, 68, 169)</glowColor>
+						<colorLabel>blue</colorLabel>
+					</li>
+					<li>
+						<glowRadius>9</glowRadius>
+						<glowColor>(243, 140, 170)</glowColor>
+						<colorLabel>pink</colorLabel>
+					</li>
+					<li>
+						<glowRadius>9</glowRadius>
+						<glowColor>(137, 50, 183)</glowColor>
+						<colorLabel>purple</colorLabel>
+					</li>
+				</colorOptions>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatFurnitureGeneric</subCategory>
+				<showOnlyInCategory>false</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+</Defs>

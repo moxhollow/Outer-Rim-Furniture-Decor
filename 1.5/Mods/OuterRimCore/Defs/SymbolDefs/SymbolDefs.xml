@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TatooineBed_South</defName>
+		<thing>OuterRim_TatooineBed</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_DoorCorellian</defName>
+		<thing>OuterRim_DoorCorellian</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TatooineEndTable_South</defName>
+		<thing>OuterRim_TatooineEndTable</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_WallLamp_North</defName>
+		<thing>OuterRim_WallLamp</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TatooineDresser_South</defName>
+		<thing>OuterRim_TatooineDresser</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TatooineEndTable_North</defName>
+		<thing>OuterRim_TatooineEndTable</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TatooineBed_North</defName>
+		<thing>OuterRim_TatooineBed</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_AurebeshWordBarracks_North</defName>
+		<thing>OuterRim_AurebeshWordBarracks</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TatooineDresser_North</defName>
+		<thing>OuterRim_TatooineDresser</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_CorellianDresser_North</defName>
+		<thing>OuterRim_CorellianDresser</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_AurebeshWordMess_North</defName>
+		<thing>OuterRim_AurebeshWordMess</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_WallLamp_West</defName>
+		<thing>OuterRim_WallLamp</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_CorellianStool_North</defName>
+		<thing>OuterRim_CorellianStool</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_Corellian2x1Table_North</defName>
+		<thing>OuterRim_Corellian2x1Table</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_FloorLamp_East</defName>
+		<thing>OuterRim_FloorLamp</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_CorellianDoubleBed_South</defName>
+		<thing>OuterRim_CorellianDoubleBed</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_WallLamp_East</defName>
+		<thing>OuterRim_WallLamp</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_CorellianEndTable_South</defName>
+		<thing>OuterRim_CorellianEndTable</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_AurebeshWordKitchen_North</defName>
+		<thing>OuterRim_AurebeshWordKitchen</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_AurebeshWordFreezer_North</defName>
+		<thing>OuterRim_AurebeshWordFreezer</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_CorellianEndTable_North</defName>
+		<thing>OuterRim_CorellianEndTable</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_CorellianDoubleBed_North</defName>
+		<thing>OuterRim_CorellianDoubleBed</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_CorellianDresser_South</defName>
+		<thing>OuterRim_CorellianDresser</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TatooineDoubleBed_South</defName>
+		<thing>OuterRim_TatooineDoubleBed</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_CoruscantDresser_North</defName>
+		<thing>OuterRim_CoruscantDresser</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_CoruscantDiningChair_North</defName>
+		<thing>OuterRim_CoruscantDiningChair</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_Coruscant1x1Table_South</defName>
+		<thing>OuterRim_Coruscant1x1Table</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_CoruscantDiningChair_South</defName>
+		<thing>OuterRim_CoruscantDiningChair</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_CoruscantEndTable_North</defName>
+		<thing>OuterRim_CoruscantEndTable</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_CoruscantBed_North</defName>
+		<thing>OuterRim_CoruscantBed</thing>
+	</KCSG.SymbolDef>
+	
+	<KCSG.SymbolDef>
+		<defName>OuterRim_Coruscant2x1Table_South</defName>
+		<thing>OuterRim_Coruscant2x1Table</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_CoruscantStool_North</defName>
+		<thing>OuterRim_CoruscantStool</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_SageOfDwartii_BraataDanlos_OuterRim_Durasteel</defName>
+		<thing>OuterRim_SageOfDwartii_BraataDanlos</thing>
+		<stuff>OuterRim_Durasteel</stuff>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_SageOfDwartii_FayaRodemos_OuterRim_Durasteel</defName>
+		<thing>OuterRim_SageOfDwartii_FayaRodemos</thing>
+		<stuff>OuterRim_Durasteel</stuff>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_SageOfDwartii_YanjonZelmar_OuterRim_Durasteel</defName>
+		<thing>OuterRim_SageOfDwartii_YanjonZelmar</thing>
+		<stuff>OuterRim_Durasteel</stuff>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_SageOfDwartii_SistrosNevet_OuterRim_Durasteel</defName>
+		<thing>OuterRim_SageOfDwartii_SistrosNevet</thing>
+		<stuff>OuterRim_Durasteel</stuff>
+	</KCSG.SymbolDef>
+
+</Defs>

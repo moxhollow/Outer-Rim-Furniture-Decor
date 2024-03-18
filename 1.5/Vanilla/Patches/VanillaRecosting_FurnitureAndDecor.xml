@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ResearchProjectDef[defName="OuterRim_HypertechDecor"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@Name="OuterRimFurnitureBase" or @Name="OuterRimSculptureBase" or @Name="OuterRim_DecalBase" or defName="OuterRim_HoloArcade_MynockHunt" or @Name="OuterRim_DathomirLampBase" or defName="OuterRim_HoloProjector_Small"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>ComplexFurniture</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="TabulaRasa.PatchOperation_ReplaceThingCount">
+		<xpath>/Defs/ThingDef[@Name="OuterRim_DecalBase" or @Name="OuterRimWallLightBase" or @Name="OuterRimFloorLampBase" or defName="OuterRim_AdministratorDesk" or defName="OuterRim_HoloArcade_MynockHunt" or defName="OuterRim_GenericBed" or defName="OuterRim_Coruscant1x1Table" or defName="OuterRim_Coruscant2x1Table" or defName="OuterRim_Coruscant2x2Table" or defName="OuterRim_CoruscantBed" or defName="OuterRim_CoruscantDoubleBed" or defName="OuterRim_CoruscantDiningChair" or defName="OuterRim_CoruscantDresser" or defName="OuterRim_CoruscantEndTable" or defName="OuterRim_CoruscantStool" or defName="OuterRim_Corellian1x1Table" or defName="OuterRim_Corellian2x1Table" or defName="OuterRim_Corellian2x2Table" or defName="OuterRim_DoorCorellian" or defName="OuterRim_CorellianDresser" or defName="OuterRim_CorellianEndTable" or defName="OuterRim_Tatooine1x1Table" or defName="OuterRim_Tatooine2x1Table" or defName="OuterRim_Tatooine2x2Table" or defName="OuterRim_TatooineBed" or defName="OuterRim_TatooineDoubleBed" or defName="OuterRim_TatooineDiningChair" or defName="OuterRim_DoorTatooine" or defName="OuterRim_TatooineDresser" or defName="OuterRim_TatooineEndTable" or defName="OuterRim_TatooineStool" or defName="OuterRim_HoloProjector_Small" or defName="OuterRim_CorellianBed" or defName="OuterRim_CorellianDoubleBed" or defName="OuterRim_CorellianDiningChair" or defName="OuterRim_CorellianStool"]/costList/OuterRim_Durasteel</xpath>
+		<replacement>Steel</replacement>
+	</Operation>
+
+	<Operation Class="TabulaRasa.PatchOperation_ReplaceThingCount">
+		<xpath>/Defs/ThingDef[@Name="OuterRimWallLightBase" or @Name="OuterRimFloorLampBase" or defName="OuterRim_AdministratorDesk" or defName="OuterRim_HoloArcade_MynockHunt" or defName="OuterRim_HoloProjector_Small" or defName="OuterRim_DathomirSunLamp" or defName="OuterRim_DathomirOrbLamp_Street" or defName="OuterRim_DathomirOrbLamp_Tall" or defName="OuterRim_DathomirOrbLamp_Small" or defName="OuterRim_DathomirOrbLamp"]/costList/OuterRim_ComponentHypertech</xpath>
+		<replacement>ComponentSpacer</replacement>
+	</Operation>
+
+</Patch>

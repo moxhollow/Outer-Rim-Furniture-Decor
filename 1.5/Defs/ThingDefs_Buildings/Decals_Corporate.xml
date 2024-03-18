@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_DecalBase" Name="OuterRim_Decals_Corporation" Abstract="True">
+		<graphicData>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<size>(3, 3)</size>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatDecalsCorporations</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_AccuTronics</defName>
+		<label>Decal (AccuTronics)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/AccuTronics</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_ArakydIndustries</defName>
+		<label>Decal (Arakyd Industries)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/ArakydIndustries</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_AratechRepulsorCompany</defName>
+		<label>Decal (Aratech Repulsor Company)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/AratechRepulsorCompany</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_AtgarSpaceDefenseCorp</defName>
+		<label>Decal (Atgar Space Defense)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/AtgarSpaceDefenseCorporation</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_BaktoidArmorWorkshop</defName>
+		<label>Decal (Baktoid Armor Workshop)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/BaktoidArmorWorkshop</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_BalmorranArms</defName>
+		<label>Decal (Balmorran Arms)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/BalmorranArms</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_BlastechIndustries</defName>
+		<label>Decal (Blastech Industries)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/BlastechIndustries</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_CestusCybernetics</defName>
+		<label>Decal (Cestus Cybernetics)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/CestusCybernetics</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_ColocoidCreationNest</defName>
+		<label>Decal (Colocoid Creation Nest)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/ColocoidCreationNest</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_ConnerShipSystems</defName>
+		<label>Decal (Conner Ship Systems)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/ConnerShipSystems</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_CorellianEngineeringCorp</defName>
+		<label>Decal (Corellian Engineering)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/CorellianEngineeringCorp</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_CrozoIndustrialProducts</defName>
+		<label>Decal (Crozo Industrial Products)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/CrozoIndustrialProducts</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_CybotGalactica</defName>
+		<label>Decal (Cybot Galactica)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/CybotGalactica</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_CzerkaCorp</defName>
+		<label>Decal (Czerka Corp)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/CzerkaCorp</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_DamorianManufacturingCorp</defName>
+		<label>Decal (Damorian Manufacturing Corp)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/DamorianManufacturingCorporation</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_DreadrianDefenseConglomerate</defName>
+		<label>Decal (Dreadrian Defense Conglomerate)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/DreadrianDefenseConglomerate</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_DynamicAutomata</defName>
+		<label>Decal (Dynamic Automata)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/DynamicAutomata</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_GalacticSolutionsIndustries</defName>
+		<label>Decal (Galactic Solutions Industries)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/GalacticSolutionsIndustries</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_GallofreeYardsInc</defName>
+		<label>Decal (Gallofree Yards Inc)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/GallofreeYardsInc</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_GandorthralAtmospherics</defName>
+		<label>Decal (Gandorthral Atmospherics)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/GandorthralAtmospherics</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_GenetechCorp</defName>
+		<label>Decal (Genetech Corp)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/GenetechCorporation</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_GolanArms</defName>
+		<label>Decal (Golan Arms)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/GolanArms</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_IncomCorp</defName>
+		<label>Decal (Incom Corp)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/IncomCorporation</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_IndustrialAutomation</defName>
+		<label>Decal (Industrial Automation)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/IndustrialAutomation</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_KoensayrManufacturing</defName>
+		<label>Decal (Koensayr Manufacturing)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/KoensayrManufacturing</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_KuatDriveYards</defName>
+		<label>Decal (Kuat Drive Yards)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/KuatDriveYards</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_LeisureMechEnterprises</defName>
+		<label>Decal (Leisure Mech Enterprises)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/LeisureMechEnterprises</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_LoronarCorporation</defName>
+		<label>Decal (Loronar Corp)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/LoronarCorporation</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_MandalMotors</defName>
+		<label>Decal (Mandal Motors)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/MandalMotors</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_MedtechIndustries</defName>
+		<label>Decal (Medtech Industries)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/MedtechIndustries</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_MerrSonnMunitionsInc</defName>
+		<label>Decal (Merr-Sonn Munitions Inc)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/MerrSonnMunitionsInc</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_MonCalamariShipyards</defName>
+		<label>Decal (Mon Calamari Shipyards)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/MonCalamariShipyards</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_OriolanisDefenseSystems</defName>
+		<label>Decal (Oriolanis Defense Systems)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/OriolanisDefenseSystems</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_PantolominShipwrights</defName>
+		<label>Decal (Pantolomin Shipwrights)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/PantolominShipwrights</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_RebaxanColumni</defName>
+		<label>Decal (Rebaxan Columni)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/Rebaxan Columni</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_RegallisEngineering</defName>
+		<label>Decal (Regallis Engineering)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/RegallisEngineering</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_RendiliStarDrive</defName>
+		<label>Decal (Rendili Star Drive)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/RendiliStarDrive</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_RocheHive</defName>
+		<label>Decal (Roche Hive)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/RocheHive</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_SienarFleetSystems</defName>
+		<label>Decal (Sienar Fleet Systems)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/SienarFleetSystems</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_SlaynAndKorpil</defName>
+		<label>Decal (Slayn &amp; Kopril)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/SlaynAndKorpil</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_SoroSuubCorp</defName>
+		<label>Decal (SoroSuub Corp)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/SoroSuubCorporation</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_SublightProductsCorp</defName>
+		<label>Decal (Sublight Products Corp)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/SublightProductsCorporation</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_TechnoUnion</defName>
+		<label>Decal (Techno Union)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/TechnoUnion</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_TelgornCorp</defName>
+		<label>Decal (Telgorn Corp)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/TelgornCorporation</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_TendrandoArms</defName>
+		<label>Decal (Tendrando Arms)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/TendrandoArms</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_TheedPalaceEngineeringCorps</defName>
+		<label>Decal (Theed Palace Engineering)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/TheedPalaceEngineeringCorps</texPath>
+		</graphicData>
+	</ThingDef>
+		
+	<ThingDef ParentName="OuterRim_Decals_Organization">
+		<defName>OuterRim_Decal_TradeFederation</defName>
+		<label>Decal (Trade Federation)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Factions/TradeFederation</texPath>
+		</graphicData>
+	</ThingDef> 
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_UdraneGalacticElectronics</defName>
+		<label>Decal (Udrane Galactic Electronics)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/UdraneGalacticElectronics</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_XisorTransportSystems</defName>
+		<label>Decal (Xisor Transport Systems)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Corporations/XisorTransportSystems</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Corporation">
+		<defName>OuterRim_Decal_Credit</defName>
+		<label>Decal (Credit)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Additional/Credit</texPath>
+		</graphicData>
+	</ThingDef>
+
+</Defs>
