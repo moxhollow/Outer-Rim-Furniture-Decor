@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
-	<Operation Class="PatchOperationRemove">
-		<xpath>/Defs/ResearchProjectDef[defName="OuterRim_HypertechDecor"]</xpath>
-	</Operation>
-
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[@Name="OuterRimFurnitureBase" or @Name="OuterRimSculptureBase" or @Name="OuterRim_DecalBase" or defName="OuterRim_HoloArcade_MynockHunt" or @Name="OuterRim_DathomirLampBase" or defName="OuterRim_HoloProjector_Small"]/researchPrerequisites</xpath>
 		<value>
