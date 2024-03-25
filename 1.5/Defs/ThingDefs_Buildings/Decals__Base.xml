@@ -16,7 +16,7 @@
 		<rotatable>true</rotatable>
 		<altitudeLayer>Floor</altitudeLayer>
 		<researchPrerequisites>
-			<li>OuterRim_HypertechDecor</li>
+			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>

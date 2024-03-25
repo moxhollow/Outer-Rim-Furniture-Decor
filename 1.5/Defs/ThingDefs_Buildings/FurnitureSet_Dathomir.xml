@@ -31,7 +31,7 @@
 			<Flammability>0.3</Flammability>
 		</statBases>
 		<researchPrerequisites>
-			<li>OuterRim_HypertechDecor</li>
+			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">

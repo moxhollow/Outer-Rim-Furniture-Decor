@@ -62,7 +62,7 @@
 		</inspectorTabs>
 		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
 		<researchPrerequisites Inherit="False">
-			<li>OuterRim_HypertechDecor</li>
+			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">

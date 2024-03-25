@@ -8,7 +8,7 @@
 			<li>BuildingsFurniture</li>
 		</thingCategories>
 		<researchPrerequisites>
-			<li>OuterRim_HypertechDecor</li>
+			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 	</ThingDef>
 
@@ -237,7 +237,7 @@
 			<allowedSpectateSides>Down</allowedSpectateSides>
 		</ritualFocus>
 		<researchPrerequisites>
-			<li>OuterRim_HypertechDecor</li>
+			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 	</ThingDef>
 
