@@ -442,6 +442,42 @@
 		</modExtensions>
 	</ThingDef>
 
+	<!-- ==================== 1x2 Door ==================== -->
+
+	<ThingDef ParentName="OuterRimDoorWideBase">
+		<defName>OuterRim_DoorTatooineWide</defName>
+		<label>wide auto-door (tatooine)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Furniture/Tatooine/WideDoor/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>OuterRim/Building/Furniture/Tatooine/WideDoor/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintClass>Blueprint_Build</blueprintClass>
+			<blueprintGraphicData>
+				<texPath>OuterRim/Building/Furniture/Tatooine/WideDoor/Door_MenuIcon</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<shaderType>EdgeDetect</shaderType>
+				<drawSize>(3.1, 3.1)</drawSize>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>OuterRim/Building/Furniture/Tatooine/WideDoor/DoorTop</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(3.1, 3.1)</drawSize>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>OuterRim/Building/Furniture/Tatooine/WideDoor/DoorSupport</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(3.1, 3.1)</drawSize>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatFurnitureTatooine</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
 	<!-- ==================== Street Lamp ==================== -->
 
 	<!-- ==================== Floor Lamp ==================== -->

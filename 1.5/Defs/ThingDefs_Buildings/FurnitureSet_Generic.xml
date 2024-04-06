@@ -101,7 +101,7 @@
 		</costList>
 		<comps>
 			<li Class="CompProperties_Glower">
-				<glowRadius>9</glowRadius>
+				<glowRadius>11</glowRadius>
 				<glowColor>(217, 217, 217)</glowColor>
 				<colorPickerEnabled>true</colorPickerEnabled>
 				<darklightToggle>true</darklightToggle>
@@ -125,60 +125,11 @@
 			<texPath>OuterRim/Building/Furniture/WallLamp</texPath>
 		</graphicData>
 		<comps>
-			<li Class="VanillaFurnitureExpanded.CompProperties_GlowerExtended">
-				<spawnGlowerInFacedCell>true</spawnGlowerInFacedCell>
-				<colorOptions>
-					<li>
-						<glowRadius>9</glowRadius>
-						<glowColor>(217, 217, 217)</glowColor>
-						<colorLabel>normal</colorLabel>
-					</li>
-					<li>
-						<glowRadius>9</glowRadius>
-						<glowColor>(78, 226, 229)</glowColor>
-						<colorLabel>darklight</colorLabel>
-					</li>
-					<li>
-						<glowRadius>9</glowRadius>
-						<glowColor>(255, 216, 61)</glowColor>
-						<colorLabel>yellow</colorLabel>
-					</li>
-					<li>
-						<glowRadius>9</glowRadius>
-						<glowColor>(248, 146, 29)</glowColor>
-						<colorLabel>orange</colorLabel>
-					</li>
-					<li>
-						<glowRadius>9</glowRadius>
-						<glowColor>(176, 46, 38)</glowColor>
-						<colorLabel>red</colorLabel>
-					</li>
-					<li>
-						<glowRadius>9</glowRadius>
-						<glowColor>(93, 124, 21)</glowColor>
-						<colorLabel>green</colorLabel>
-					</li>
-					<li>
-						<glowRadius>9</glowRadius>
-						<glowColor>(58, 179, 218)</glowColor>
-						<colorLabel>cyan</colorLabel>
-					</li>
-					<li>
-						<glowRadius>9</glowRadius>
-						<glowColor>(60, 68, 169)</glowColor>
-						<colorLabel>blue</colorLabel>
-					</li>
-					<li>
-						<glowRadius>9</glowRadius>
-						<glowColor>(243, 140, 170)</glowColor>
-						<colorLabel>pink</colorLabel>
-					</li>
-					<li>
-						<glowRadius>9</glowRadius>
-						<glowColor>(137, 50, 183)</glowColor>
-						<colorLabel>purple</colorLabel>
-					</li>
-				</colorOptions>
+			<li Class="CompProperties_Glower">
+			  <glowRadius>11</glowRadius>
+			  <glowColor>(214, 148, 94, 0)</glowColor>
+			  <colorPickerEnabled>true</colorPickerEnabled>
+			  <darklightToggle>true</darklightToggle>
 			</li>
 		</comps>
 		<modExtensions>
