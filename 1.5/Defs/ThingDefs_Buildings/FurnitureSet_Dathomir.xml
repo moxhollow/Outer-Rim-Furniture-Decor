@@ -25,6 +25,9 @@
 		<comps>
 			<li Class="CompProperties_Flickable"/>
 		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_GlowRadius</li>
+		</placeWorkers>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>300</WorkToBuild>

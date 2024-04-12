@@ -146,6 +146,7 @@
 		</building>
 		<placeWorkers>
 			<li>Placeworker_AttachedToWall</li>
+			<li>PlaceWorker_GlowRadius</li>
 		</placeWorkers>
 		<costList>
 			<OuterRim_Durasteel>15</OuterRim_Durasteel>
