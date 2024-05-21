@@ -457,17 +457,17 @@
 				<texPath>OuterRim/Building/Furniture/Tatooine/WideDoor/Door_MenuIcon</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
 				<shaderType>EdgeDetect</shaderType>
-				<drawSize>(3.1, 3.1)</drawSize>
+				<drawSize>(3, 3)</drawSize>
 			</blueprintGraphicData>
 			<doorTopGraphic>
 				<texPath>OuterRim/Building/Furniture/Tatooine/WideDoor/DoorTop</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
-				<drawSize>(3.1, 3.1)</drawSize>
+				<drawSize>(3, 3)</drawSize>
 			</doorTopGraphic>
 			<doorSupportGraphic>
 				<texPath>OuterRim/Building/Furniture/Tatooine/WideDoor/DoorSupport</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
-				<drawSize>(3.1, 3.1)</drawSize>
+				<drawSize>(3, 3)</drawSize>
 			</doorSupportGraphic>
 		</building>
 		<modExtensions>

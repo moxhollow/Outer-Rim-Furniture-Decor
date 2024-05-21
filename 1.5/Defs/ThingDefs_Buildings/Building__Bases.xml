@@ -319,7 +319,7 @@
 		<thingClass>Building_MultiTileDoor</thingClass>
 		<statBases>
 			<WorkToBuild>15000</WorkToBuild>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>800</MaxHitPoints>
 			<Beauty>10</Beauty>
 		</statBases>
 		<graphicData>
